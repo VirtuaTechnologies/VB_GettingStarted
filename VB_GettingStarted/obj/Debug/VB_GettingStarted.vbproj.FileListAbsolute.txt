@@ -1,0 +1,12 @@
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.exe.config
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.exe
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.pdb
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.xml
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.vbprojResolveAssemblyReference.cache
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Form1.resources
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Resources.resources
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.vbproj.GenerateResource.Cache
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.exe
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.xml
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.pdb
+R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Form2.resources
