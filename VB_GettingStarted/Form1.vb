@@ -1,4 +1,8 @@
-﻿Public Class Form1
+﻿Imports System.Xml
+Imports System.IO
+
+Public Class Form1
+
 
 
     Private Sub btn_declaringVars_Click(sender As Object, e As EventArgs) Handles btn_declaringVars.Click
@@ -52,8 +56,48 @@
     Private Sub btn_openNewWindow_Click(sender As Object, e As EventArgs) Handles btn_openNewWindow.Click
         Dim form2 As New Form2(ComboBox_Form1.SelectedIndex)
         form2.Show()
+        Me.Hide()
 
+    End Sub
 
+    Private Sub Form1_Activated(sender As Object, e As EventArgs) Handles MyBase.Activated
 
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub btn_browse_Click(sender As Object, e As EventArgs) Handles btn_browse.Click
+        Dim fd As OpenFileDialog = New OpenFileDialog()
+        Dim strFileName As String
+
+        fd.Title = "Open XML File Dialog"
+        fd.InitialDirectory = "C:\"
+        fd.Filter = "XML files (*.XML)|"
+        fd.FilterIndex = 1
+        fd.RestoreDirectory = True
+
+        If fd.ShowDialog() = DialogResult.OK Then
+            strFileName = fd.FileName
+        End If
+    End Sub
+
+    Private Sub btn_readXMLMethod1_Click(sender As Object, e As EventArgs) Handles btn_readXMLMethod1.Click
+
+        Dim reader As New XmlTextReader(tBox_XMLFile.Text)
+        While reader.Read()
+            Select Case reader.NodeType
+                Case XmlNodeType.Element
+                    ListBox1.Items.Add("<" + reader.Name & ">")
+                    Exit Select
+                Case XmlNodeType.Text
+                    ListBox1.Items.Add(reader.Value)
+                    Exit Select
+                Case XmlNodeType.EndElement
+                    ListBox1.Items.Add("")
+                    Exit Select
+            End Select
+        End While
     End Sub
 End Class

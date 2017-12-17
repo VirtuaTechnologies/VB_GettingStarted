@@ -24,6 +24,7 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Me.ComboBox_Form2 = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btn_form2_Close = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ComboBox_Form2
@@ -43,11 +44,21 @@ Partial Class Form2
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Value selected in Form1"
         '
+        'btn_form2_Close
+        '
+        Me.btn_form2_Close.Location = New System.Drawing.Point(485, 271)
+        Me.btn_form2_Close.Name = "btn_form2_Close"
+        Me.btn_form2_Close.Size = New System.Drawing.Size(75, 23)
+        Me.btn_form2_Close.TabIndex = 2
+        Me.btn_form2_Close.Text = "Close"
+        Me.btn_form2_Close.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(572, 306)
+        Me.Controls.Add(Me.btn_form2_Close)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBox_Form2)
         Me.Name = "Form2"
@@ -59,4 +70,5 @@ Partial Class Form2
 
     Friend WithEvents ComboBox_Form2 As ComboBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents btn_form2_Close As Button
 End Class

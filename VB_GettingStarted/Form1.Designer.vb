@@ -25,23 +25,29 @@ Partial Class Form1
         Me.btn_declaringVars = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.tBox_addToCombo_displayText = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.btn_addToCombo = New System.Windows.Forms.Button()
-        Me.ComboBox_datatable = New System.Windows.Forms.ComboBox()
-        Me.btn_dtabletoComboBox = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btn_openNewWindow = New System.Windows.Forms.Button()
+        Me.ComboBox_Form1 = New System.Windows.Forms.ComboBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.tBox_addToCombo_val = New System.Windows.Forms.TextBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.ComboBox_Form1 = New System.Windows.Forms.ComboBox()
-        Me.btn_openNewWindow = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.btn_addToCombo = New System.Windows.Forms.Button()
+        Me.tBox_addToCombo_displayText = New System.Windows.Forms.TextBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.btn_dtabletoComboBox = New System.Windows.Forms.Button()
+        Me.ComboBox_datatable = New System.Windows.Forms.ComboBox()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.tBox_XMLFile = New System.Windows.Forms.TextBox()
+        Me.btn_browse = New System.Windows.Forms.Button()
+        Me.btn_readXMLMethod1 = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
         'btn_declaringVars
@@ -76,69 +82,36 @@ Partial Class Form1
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(836, 327)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "TabPage1"
+        Me.TabPage1.Text = "General"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'TabPage2
+        'GroupBox2
         '
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(417, 327)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "TabPage2"
-        Me.TabPage2.UseVisualStyleBackColor = True
+        Me.GroupBox2.Controls.Add(Me.btn_openNewWindow)
+        Me.GroupBox2.Controls.Add(Me.ComboBox_Form1)
+        Me.GroupBox2.Location = New System.Drawing.Point(29, 197)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(477, 124)
+        Me.GroupBox2.TabIndex = 9
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Form to Form"
         '
-        'ComboBox1
+        'btn_openNewWindow
         '
-        Me.ComboBox1.DisplayMember = "Text"
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(247, 52)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(186, 21)
-        Me.ComboBox1.TabIndex = 1
+        Me.btn_openNewWindow.Location = New System.Drawing.Point(165, 20)
+        Me.btn_openNewWindow.Name = "btn_openNewWindow"
+        Me.btn_openNewWindow.Size = New System.Drawing.Size(186, 23)
+        Me.btn_openNewWindow.TabIndex = 1
+        Me.btn_openNewWindow.Text = "Open Window"
+        Me.btn_openNewWindow.UseVisualStyleBackColor = True
         '
-        'tBox_addToCombo_displayText
+        'ComboBox_Form1
         '
-        Me.tBox_addToCombo_displayText.Location = New System.Drawing.Point(77, 26)
-        Me.tBox_addToCombo_displayText.Name = "tBox_addToCombo_displayText"
-        Me.tBox_addToCombo_displayText.Size = New System.Drawing.Size(124, 20)
-        Me.tBox_addToCombo_displayText.TabIndex = 2
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 29)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(65, 13)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Display Text"
-        '
-        'btn_addToCombo
-        '
-        Me.btn_addToCombo.Location = New System.Drawing.Point(99, 52)
-        Me.btn_addToCombo.Name = "btn_addToCombo"
-        Me.btn_addToCombo.Size = New System.Drawing.Size(102, 23)
-        Me.btn_addToCombo.TabIndex = 4
-        Me.btn_addToCombo.Text = "Add to Combo"
-        Me.btn_addToCombo.UseVisualStyleBackColor = True
-        '
-        'ComboBox_datatable
-        '
-        Me.ComboBox_datatable.FormattingEnabled = True
-        Me.ComboBox_datatable.Location = New System.Drawing.Point(194, 170)
-        Me.ComboBox_datatable.Name = "ComboBox_datatable"
-        Me.ComboBox_datatable.Size = New System.Drawing.Size(186, 21)
-        Me.ComboBox_datatable.TabIndex = 5
-        '
-        'btn_dtabletoComboBox
-        '
-        Me.btn_dtabletoComboBox.Location = New System.Drawing.Point(29, 168)
-        Me.btn_dtabletoComboBox.Name = "btn_dtabletoComboBox"
-        Me.btn_dtabletoComboBox.Size = New System.Drawing.Size(159, 23)
-        Me.btn_dtabletoComboBox.TabIndex = 7
-        Me.btn_dtabletoComboBox.Text = "Datatable to Combobox"
-        Me.btn_dtabletoComboBox.UseVisualStyleBackColor = True
+        Me.ComboBox_Form1.FormattingEnabled = True
+        Me.ComboBox_Form1.Location = New System.Drawing.Point(9, 20)
+        Me.ComboBox_Form1.Name = "ComboBox_Form1"
+        Me.ComboBox_Form1.Size = New System.Drawing.Size(150, 21)
+        Me.ComboBox_Form1.TabIndex = 0
         '
         'GroupBox1
         '
@@ -171,33 +144,114 @@ Partial Class Form1
         Me.tBox_addToCombo_val.Size = New System.Drawing.Size(124, 20)
         Me.tBox_addToCombo_val.TabIndex = 4
         '
-        'GroupBox2
+        'Label1
         '
-        Me.GroupBox2.Controls.Add(Me.btn_openNewWindow)
-        Me.GroupBox2.Controls.Add(Me.ComboBox_Form1)
-        Me.GroupBox2.Location = New System.Drawing.Point(29, 197)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(477, 124)
-        Me.GroupBox2.TabIndex = 9
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Form to Form"
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(6, 29)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(65, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Display Text"
         '
-        'ComboBox_Form1
+        'btn_addToCombo
         '
-        Me.ComboBox_Form1.FormattingEnabled = True
-        Me.ComboBox_Form1.Location = New System.Drawing.Point(9, 20)
-        Me.ComboBox_Form1.Name = "ComboBox_Form1"
-        Me.ComboBox_Form1.Size = New System.Drawing.Size(150, 21)
-        Me.ComboBox_Form1.TabIndex = 0
+        Me.btn_addToCombo.Location = New System.Drawing.Point(99, 52)
+        Me.btn_addToCombo.Name = "btn_addToCombo"
+        Me.btn_addToCombo.Size = New System.Drawing.Size(102, 23)
+        Me.btn_addToCombo.TabIndex = 4
+        Me.btn_addToCombo.Text = "Add to Combo"
+        Me.btn_addToCombo.UseVisualStyleBackColor = True
         '
-        'btn_openNewWindow
+        'tBox_addToCombo_displayText
         '
-        Me.btn_openNewWindow.Location = New System.Drawing.Point(165, 20)
-        Me.btn_openNewWindow.Name = "btn_openNewWindow"
-        Me.btn_openNewWindow.Size = New System.Drawing.Size(186, 23)
-        Me.btn_openNewWindow.TabIndex = 1
-        Me.btn_openNewWindow.Text = "Open Window"
-        Me.btn_openNewWindow.UseVisualStyleBackColor = True
+        Me.tBox_addToCombo_displayText.Location = New System.Drawing.Point(77, 26)
+        Me.tBox_addToCombo_displayText.Name = "tBox_addToCombo_displayText"
+        Me.tBox_addToCombo_displayText.Size = New System.Drawing.Size(124, 20)
+        Me.tBox_addToCombo_displayText.TabIndex = 2
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.DisplayMember = "Text"
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(247, 52)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(186, 21)
+        Me.ComboBox1.TabIndex = 1
+        '
+        'btn_dtabletoComboBox
+        '
+        Me.btn_dtabletoComboBox.Location = New System.Drawing.Point(29, 168)
+        Me.btn_dtabletoComboBox.Name = "btn_dtabletoComboBox"
+        Me.btn_dtabletoComboBox.Size = New System.Drawing.Size(159, 23)
+        Me.btn_dtabletoComboBox.TabIndex = 7
+        Me.btn_dtabletoComboBox.Text = "Datatable to Combobox"
+        Me.btn_dtabletoComboBox.UseVisualStyleBackColor = True
+        '
+        'ComboBox_datatable
+        '
+        Me.ComboBox_datatable.FormattingEnabled = True
+        Me.ComboBox_datatable.Location = New System.Drawing.Point(194, 170)
+        Me.ComboBox_datatable.Name = "ComboBox_datatable"
+        Me.ComboBox_datatable.Size = New System.Drawing.Size(186, 21)
+        Me.ComboBox_datatable.TabIndex = 5
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.ListBox1)
+        Me.TabPage2.Controls.Add(Me.btn_readXMLMethod1)
+        Me.TabPage2.Controls.Add(Me.btn_browse)
+        Me.TabPage2.Controls.Add(Me.tBox_XMLFile)
+        Me.TabPage2.Controls.Add(Me.Label3)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(836, 327)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "XML"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(7, 7)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(48, 13)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "XML File"
+        '
+        'tBox_XMLFile
+        '
+        Me.tBox_XMLFile.Location = New System.Drawing.Point(62, 7)
+        Me.tBox_XMLFile.Name = "tBox_XMLFile"
+        Me.tBox_XMLFile.Size = New System.Drawing.Size(244, 20)
+        Me.tBox_XMLFile.TabIndex = 1
+        Me.tBox_XMLFile.Text = "Products.xml"
+        '
+        'btn_browse
+        '
+        Me.btn_browse.Location = New System.Drawing.Point(313, 7)
+        Me.btn_browse.Name = "btn_browse"
+        Me.btn_browse.Size = New System.Drawing.Size(75, 23)
+        Me.btn_browse.TabIndex = 2
+        Me.btn_browse.Text = "Browse"
+        Me.btn_browse.UseVisualStyleBackColor = True
+        '
+        'btn_readXMLMethod1
+        '
+        Me.btn_readXMLMethod1.Location = New System.Drawing.Point(395, 6)
+        Me.btn_readXMLMethod1.Name = "btn_readXMLMethod1"
+        Me.btn_readXMLMethod1.Size = New System.Drawing.Size(118, 23)
+        Me.btn_readXMLMethod1.TabIndex = 3
+        Me.btn_readXMLMethod1.Text = "Read XML Method 1"
+        Me.btn_readXMLMethod1.UseVisualStyleBackColor = True
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(10, 33)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(820, 290)
+        Me.ListBox1.TabIndex = 4
         '
         'Form1
         '
@@ -209,9 +263,11 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -232,4 +288,9 @@ Partial Class Form1
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents ComboBox_Form1 As ComboBox
     Friend WithEvents btn_openNewWindow As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents btn_browse As Button
+    Friend WithEvents tBox_XMLFile As TextBox
+    Friend WithEvents btn_readXMLMethod1 As Button
+    Friend WithEvents ListBox1 As ListBox
 End Class

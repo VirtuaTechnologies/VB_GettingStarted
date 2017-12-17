@@ -10,3 +10,15 @@ R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_Gett
 R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.xml
 R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.pdb
 R:\Dropbox\Projects\MS.NET\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Form2.resources
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.exe.config
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.exe
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.xml
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.pdb
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.exe
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.pdb
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.xml
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Form1.resources
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Form2.resources
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Resources.resources
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.vbproj.GenerateResource.Cache
+R:\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\Products.xml
