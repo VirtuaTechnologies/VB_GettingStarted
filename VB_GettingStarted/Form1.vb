@@ -69,6 +69,7 @@ Public Class Form1
     End Sub
 
     Private Sub btn_browse_Click(sender As Object, e As EventArgs) Handles btn_browse.Click
+        ListBox1.Items.Clear()
         Dim fd As OpenFileDialog = New OpenFileDialog()
         Dim strFileName As String
 
@@ -84,7 +85,7 @@ Public Class Form1
     End Sub
 
     Private Sub btn_readXMLMethod1_Click(sender As Object, e As EventArgs) Handles btn_readXMLMethod1.Click
-
+        ListBox1.Items.Clear()
         Dim reader As New XmlTextReader(tBox_XMLFile.Text)
         While reader.Read()
             Select Case reader.NodeType
@@ -92,12 +93,22 @@ Public Class Form1
                     ListBox1.Items.Add("<" + reader.Name & ">")
                     Exit Select
                 Case XmlNodeType.Text
-                    ListBox1.Items.Add(reader.Value)
+                    ListBox1.Items.Add("Text: >> :" + reader.Value)
                     Exit Select
                 Case XmlNodeType.EndElement
                     ListBox1.Items.Add("")
                     Exit Select
             End Select
         End While
+    End Sub
+
+    Private Sub btn_Form1_Open_Form2_Par_Click(sender As Object, e As EventArgs) Handles btn_Form1_Open_Form2_Par.Click
+        Dim form2 As New Form2(ComboBox_Form1.SelectedIndex)
+        form2.Show()
+    End Sub
+
+    Private Sub btn_clear_Click(sender As Object, e As EventArgs) Handles btn_clear.Click
+        ListBox1.Items.Clear()
+
     End Sub
 End Class

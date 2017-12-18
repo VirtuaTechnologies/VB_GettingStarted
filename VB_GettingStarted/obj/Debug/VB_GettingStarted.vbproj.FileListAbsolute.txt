@@ -22,3 +22,15 @@ R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Form2.
 R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Resources.resources
 R:\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.vbproj.GenerateResource.Cache
 R:\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\Products.xml
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.exe.config
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.exe
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.xml
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.pdb
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\Products.xml
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.exe
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.pdb
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\bin\Debug\VB_GettingStarted.xml
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Form1.resources
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Form2.resources
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.Resources.resources
+C:\Users\sjhoughton\Documents\GitHub\VB_GettingStarted\VB_GettingStarted\obj\Debug\VB_GettingStarted.vbproj.GenerateResource.Cache

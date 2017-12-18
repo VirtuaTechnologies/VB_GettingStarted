@@ -27,7 +27,7 @@ Public Class Form2
 
     Private Sub ComboBox_Form2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox_Form2.SelectedIndexChanged
         'we are storing the value that is selected in the form 2
-        'variables.valfromForm2 = ComboBox_Form2.SelectedIndex
+        'variables.valfromForm2 = ComboBox_Form2.SelectedIndexDim
 
     End Sub
 

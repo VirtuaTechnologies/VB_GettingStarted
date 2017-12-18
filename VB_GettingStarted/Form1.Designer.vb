@@ -38,11 +38,13 @@ Partial Class Form1
         Me.btn_dtabletoComboBox = New System.Windows.Forms.Button()
         Me.ComboBox_datatable = New System.Windows.Forms.ComboBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.tBox_XMLFile = New System.Windows.Forms.TextBox()
-        Me.btn_browse = New System.Windows.Forms.Button()
-        Me.btn_readXMLMethod1 = New System.Windows.Forms.Button()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.btn_readXMLMethod1 = New System.Windows.Forms.Button()
+        Me.btn_browse = New System.Windows.Forms.Button()
+        Me.tBox_XMLFile = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.btn_Form1_Open_Form2_Par = New System.Windows.Forms.Button()
+        Me.btn_clear = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -87,11 +89,12 @@ Partial Class Form1
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.btn_Form1_Open_Form2_Par)
         Me.GroupBox2.Controls.Add(Me.btn_openNewWindow)
         Me.GroupBox2.Controls.Add(Me.ComboBox_Form1)
         Me.GroupBox2.Location = New System.Drawing.Point(29, 197)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(477, 124)
+        Me.GroupBox2.Size = New System.Drawing.Size(627, 124)
         Me.GroupBox2.TabIndex = 9
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Form to Form"
@@ -197,6 +200,7 @@ Partial Class Form1
         '
         'TabPage2
         '
+        Me.TabPage2.Controls.Add(Me.btn_clear)
         Me.TabPage2.Controls.Add(Me.ListBox1)
         Me.TabPage2.Controls.Add(Me.btn_readXMLMethod1)
         Me.TabPage2.Controls.Add(Me.btn_browse)
@@ -210,31 +214,13 @@ Partial Class Form1
         Me.TabPage2.Text = "XML"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'Label3
+        'ListBox1
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(7, 7)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(48, 13)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "XML File"
-        '
-        'tBox_XMLFile
-        '
-        Me.tBox_XMLFile.Location = New System.Drawing.Point(62, 7)
-        Me.tBox_XMLFile.Name = "tBox_XMLFile"
-        Me.tBox_XMLFile.Size = New System.Drawing.Size(244, 20)
-        Me.tBox_XMLFile.TabIndex = 1
-        Me.tBox_XMLFile.Text = "Products.xml"
-        '
-        'btn_browse
-        '
-        Me.btn_browse.Location = New System.Drawing.Point(313, 7)
-        Me.btn_browse.Name = "btn_browse"
-        Me.btn_browse.Size = New System.Drawing.Size(75, 23)
-        Me.btn_browse.TabIndex = 2
-        Me.btn_browse.Text = "Browse"
-        Me.btn_browse.UseVisualStyleBackColor = True
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(10, 33)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(820, 290)
+        Me.ListBox1.TabIndex = 4
         '
         'btn_readXMLMethod1
         '
@@ -245,13 +231,49 @@ Partial Class Form1
         Me.btn_readXMLMethod1.Text = "Read XML Method 1"
         Me.btn_readXMLMethod1.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'btn_browse
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(10, 33)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(820, 290)
-        Me.ListBox1.TabIndex = 4
+        Me.btn_browse.Location = New System.Drawing.Point(313, 7)
+        Me.btn_browse.Name = "btn_browse"
+        Me.btn_browse.Size = New System.Drawing.Size(75, 23)
+        Me.btn_browse.TabIndex = 2
+        Me.btn_browse.Text = "Browse"
+        Me.btn_browse.UseVisualStyleBackColor = True
+        '
+        'tBox_XMLFile
+        '
+        Me.tBox_XMLFile.Location = New System.Drawing.Point(62, 7)
+        Me.tBox_XMLFile.Name = "tBox_XMLFile"
+        Me.tBox_XMLFile.Size = New System.Drawing.Size(244, 20)
+        Me.tBox_XMLFile.TabIndex = 1
+        Me.tBox_XMLFile.Text = "Products.xml"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(7, 7)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(48, 13)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "XML File"
+        '
+        'btn_Form1_Open_Form2_Par
+        '
+        Me.btn_Form1_Open_Form2_Par.Location = New System.Drawing.Point(358, 20)
+        Me.btn_Form1_Open_Form2_Par.Name = "btn_Form1_Open_Form2_Par"
+        Me.btn_Form1_Open_Form2_Par.Size = New System.Drawing.Size(127, 23)
+        Me.btn_Form1_Open_Form2_Par.TabIndex = 2
+        Me.btn_Form1_Open_Form2_Par.Text = "Open Form 2 Parallel"
+        Me.btn_Form1_Open_Form2_Par.UseVisualStyleBackColor = True
+        '
+        'btn_clear
+        '
+        Me.btn_clear.Location = New System.Drawing.Point(519, 7)
+        Me.btn_clear.Name = "btn_clear"
+        Me.btn_clear.Size = New System.Drawing.Size(75, 23)
+        Me.btn_clear.TabIndex = 5
+        Me.btn_clear.Text = "Clear"
+        Me.btn_clear.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -293,4 +315,6 @@ Partial Class Form1
     Friend WithEvents tBox_XMLFile As TextBox
     Friend WithEvents btn_readXMLMethod1 As Button
     Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents btn_Form1_Open_Form2_Par As Button
+    Friend WithEvents btn_clear As Button
 End Class
