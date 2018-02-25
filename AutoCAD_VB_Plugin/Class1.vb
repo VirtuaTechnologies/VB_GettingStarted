@@ -65,16 +65,28 @@ Public Class Class1
     End Sub
 
     Friend Shared m_ps As Autodesk.AutoCAD.Windows.PaletteSet = Nothing
+    Private m_Tab1 As ToolPal = Nothing
+    Private m_Tab2 As ToolPal_Tab2 = Nothing
+
     <CommandMethod("toolpal1")>
     Public Sub toolpal1()
         'check to see if paletteset is already created
         If m_ps Is Nothing Then
             'no so create it
-            m_ps = New Autodesk.AutoCAD.Windows.PaletteSet("My First Palette")
+            m_ps = New Autodesk.AutoCAD.Windows.PaletteSet("A2k Palette")
+
             'create new instance of user control
-            Dim myPalette As ToolPal = New ToolPal()
+            m_Tab1 = New ToolPal()
+
             'add it to the paletteset
-            m_ps.Add("My First Palette", myPalette)        End If
+            m_ps.Add("My First Palette", m_Tab1)
+
+            'create new instance of 2nd user control
+            m_Tab2 = New ToolPal_Tab2()
+            m_ps.Add("Drag-n-Drop", m_Tab2)
+
+        End If
         m_ps.Visible = True
+
     End Sub
 End Class

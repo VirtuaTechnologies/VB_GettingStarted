@@ -15,3 +15,4 @@ R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\bin\Debug\AutoCAD_VB_Plugin.dll
 R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\bin\Debug\AutoCAD_VB_Plugin.pdb
 R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\bin\Debug\AutoCAD_VB_Plugin.xml
 R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.ToolPal.resources
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.ToolPal_Tab2.resources

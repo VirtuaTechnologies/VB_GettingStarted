@@ -5,9 +5,11 @@ Public Class ToolPal
 
     End Sub
 
-    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
+    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs)
         'adjust opacity
-        AutoCAD_VB_Plugin.Class1.m_ps.Opacity = TrackBar1.Value    End Sub
+        'AutoCAD_VB_Plugin.Class1.m_ps.Opacity = TrackBar1.Value
+
+    End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
 
