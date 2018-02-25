@@ -6,3 +6,12 @@ R:\Dropbox\Projects\MS.NET\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD
 R:\Dropbox\Projects\MS.NET\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.dll
 R:\Dropbox\Projects\MS.NET\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.xml
 R:\Dropbox\Projects\MS.NET\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.pdb
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.Resources.resources
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.vbproj.GenerateResource.Cache
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.dll
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.xml
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.pdb
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\bin\Debug\AutoCAD_VB_Plugin.dll
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\bin\Debug\AutoCAD_VB_Plugin.pdb
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\bin\Debug\AutoCAD_VB_Plugin.xml
+R:\GitHub\VB_GettingStarted\AutoCAD_VB_Plugin\obj\Debug\AutoCAD_VB_Plugin.ToolPal.resources

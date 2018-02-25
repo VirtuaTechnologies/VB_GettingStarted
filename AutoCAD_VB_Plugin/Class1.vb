@@ -5,14 +5,14 @@ Imports Autodesk.AutoCAD.DatabaseServices
 Imports Autodesk.AutoCAD.Geometry
 Imports Autodesk.AutoCAD.EditorInput
 Imports System.Xml.Linq
-Imports Autodesk.AutoCAD.Interop
-Imports Autodesk.AutoCAD.Interop.Common
+Imports System.Runtime
 Imports System.Reflection
+Imports Autodesk.AutoCAD.Windows
 
 Public Class Class1
 
     '' Global variable for AddCOMEvent and RemoveCOMEvent commands
-    Dim acAppCom As AcadApplication
+
 
     <CommandMethod("createText")>
     Public Sub AdskGreeting()
@@ -42,7 +42,7 @@ Public Class Class1
             objText.Location = New Autodesk.AutoCAD.Geometry.Point3d(2, 2, 0)
 
             '' Set the text string for the MText object
-            objText.Contents = "Greetings, Welcome to the AutoCAD .NET Visual Basic plugin"
+            objText.Contents = "Greetings, Welcome to the AutoCAD .NET Visual Basic plugin - Raghulan Gowthaman A2K Technologies"
 
             '' Set the text style for the MText object
             objText.TextStyleId = acCurDb.Textstyle
@@ -64,4 +64,17 @@ Public Class Class1
         End Using
     End Sub
 
+    Friend Shared m_ps As Autodesk.AutoCAD.Windows.PaletteSet = Nothing
+    <CommandMethod("toolpal1")>
+    Public Sub toolpal1()
+        'check to see if paletteset is already created
+        If m_ps Is Nothing Then
+            'no so create it
+            m_ps = New Autodesk.AutoCAD.Windows.PaletteSet("My First Palette")
+            'create new instance of user control
+            Dim myPalette As ToolPal = New ToolPal()
+            'add it to the paletteset
+            m_ps.Add("My First Palette", myPalette)        End If
+        m_ps.Visible = True
+    End Sub
 End Class
